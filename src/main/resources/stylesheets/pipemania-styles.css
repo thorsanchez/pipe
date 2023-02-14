@@ -1,0 +1,25 @@
+.SA, .AS{
+    -fx-background-image: url("SA.jpg");
+}
+.NV, .VN{
+    -fx-background-image: url("NV.jpg");
+}
+.VS, .VS{
+    -fx-background-image: url("VS.jpg");
+}
+.VS, .AV{
+    -fx-background-image: url("VA.jpg");
+}
+.NA, .AN{
+    -fx-background-image: url("NA.jpg");
+}
+.NS, .SN{
+    -fx-background-image: url("NS.jpg");
+}
+
+#button1 {
+    -fx-graphic: url('SA.jpg');
+    -fx-background-size: 10px 10px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}

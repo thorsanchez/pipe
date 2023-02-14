@@ -12,7 +12,14 @@ public class PipemaniaApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(PipemaniaApplication.class.getResource("pipemania-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        // tengja .css skrá við scene
+        //scene.getStylesheets().add(getClass().getResource("pipemania-styles.css").toExternalForm());
+
+        //String css = this.getClass().getResource("pipemania-styles.css").toExternalForm();
+        //scene.getStylesheets().add(css);
         stage.setTitle("Hello!");
+        //full screen skjár
+        //stage.setFullScreen(true);
         stage.setScene(scene);
         stage.show();
     }
